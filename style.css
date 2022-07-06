@@ -1,4 +1,135 @@
-h1{color: blue;
-    background-color: aqua;
+section{
+    margin-top: 70px;
+}
+body{
+    CSS rules to specify families
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+    margin: 0ch;}
+h2{
     text-align: center;
+}
+p{text-align:left;
+}
+.text-align{
+    text-align: center;
+}
+.top-banner{
+    background-image: url("images/donation7.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+
+    
+}
+.text-align-left{
+    text-align: left;
+}
+
+.donate-button{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.donate-today{
+    text-align: center;
+}
+
+.donation-amount{
+    padding: 30px;
+}
+#selected-amount{
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+#donate-for-food{
+    background-image: url(icons/food.png);
+    background-position: 30px 60px;
+    background-repeat: no-repeat;
+    background-color: rgb(223, 213, 213);
+    border: 10px solid white;
+    padding: 100px 15px 15px 15px;
+
+
+   
+
+}
+#donate-for-shelter{
+    background-image: url(icons/shelter.png);
+    background-position: 30px 60px;
+    background-repeat: no-repeat;
+    background-color:rgb(235, 212, 216);
+    border: 10px solid white;
+    padding: 100px 15px 15px 15px;
+
+
+}
+#donate-for-education{
+    background-image: url(icons/Frame-1.png);
+    background-position: 30px 60px;
+    background-repeat: no-repeat;
+    background-color:rgb(223, 231, 206) ;
+    border: 10px solid white;
+    padding: 100px 15px 15px 15px;
+
+}
+.flexible-container{
+    display: flex;
+    margin: 10px;
+}
+.half-width{
+    width: 50%;
+    text-align: center;
+    
+}
+.half-width img{
+    width: 80%
+}
+footer{
+    text-align: center;
+    padding: 5px;
+}
+.subscribe-button{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+
+}
+#email-address{
+  padding: 7px;
+    background-color: rgb(230, 223, 223);
+    border: 5px;
+
+}
+.my-updates{
+    border: 40px solid white;
+    padding: 50px;
+    background-color: rgb(247, 247, 225);
+    width: 30%;
+    border-left: 300px solid white;
+    
+    
+    
+
 }
